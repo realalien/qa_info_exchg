@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  summary: MyString
+  description: MyText
+  next_notification_send_at: 2010-09-17 13:46:23
+
+two:
+  summary: MyString
+  description: MyText
+  next_notification_send_at: 2010-09-17 13:46:23
