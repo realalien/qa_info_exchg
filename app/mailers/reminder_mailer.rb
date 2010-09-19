@@ -7,4 +7,10 @@ class ReminderMailer < ActionMailer::Base
         receiver = reminder.receiver  # TODO: one-to-many relations, 
         mail(:subject => subject, :to => receiver )
   end
+  
+  
+  
+  
 end
+
+

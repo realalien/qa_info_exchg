@@ -10,7 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100917054622) do
+ActiveRecord::Schema.define(:version => 20100919045614) do
+
+  create_table "advices", :force => true do |t|
+    t.text     "advice"
+    t.string   "name"
+    t.string   "email"
+    t.text     "other_contact_info"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "reminders", :force => true do |t|
     t.string   "summary"

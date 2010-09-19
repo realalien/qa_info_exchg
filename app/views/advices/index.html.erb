@@ -1,0 +1,29 @@
+<h1>Listing advices</h1>
+
+<table>
+  <tr>
+    <th>Advice</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Other contact info</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @advices.each do |advice| %>
+  <tr>
+    <td><%= advice.advice %></td>
+    <td><%= advice.name %></td>
+    <td><%= advice.email %></td>
+    <td><%= advice.other_contact_info %></td>
+    <td><%= link_to 'Show', advice %></td>
+    <td><%= link_to 'Edit', edit_advice_path(advice) %></td>
+    <td><%= link_to 'Destroy', advice, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Advice', new_advice_path %>

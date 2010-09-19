@@ -1,4 +1,6 @@
 QaInfoExchg::Application.routes.draw do
+  resources :advices
+
   resources :reminders
 
   # The priority is based upon order of creation:

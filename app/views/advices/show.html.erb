@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Advice:</b>
+  <%= @advice.advice %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @advice.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @advice.email %>
+</p>
+
+<p>
+  <b>Other contact info:</b>
+  <%= @advice.other_contact_info %>
+</p>
+
+
+<%= link_to 'Edit', edit_advice_path(@advice) %> |
+<%= link_to 'Back', advices_path %>

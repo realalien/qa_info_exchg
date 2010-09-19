@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Client feedback from <%= @advice.name %></h1>
+    <div>
+      <p> User <%= @advice.name%> says,<br/><br/></p>
+	  
+	  <p class="quotation">
+	  		<%= @advice.advice%>		
+	  </p>
+	  <br/>
+	  <p> Client can be reach via:</p>
+	  <p> <%=@advice.email %></p>
+	  <p> <%=@advice.other_contact_info %></p>
+    </div>
+      
+    <p>Thanks for your hard work!</p>
+  </body>
+</html>
