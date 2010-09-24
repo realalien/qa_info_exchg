@@ -7,6 +7,8 @@ require 'logger'  # TODO : logging
 require 'rubygems'
 require 'state_machine'
 
+$LOG = Logger.new("nb_help_sm2.log", "daily")
+
 module Alice2
 
 
@@ -48,6 +50,14 @@ class Build
     state_machine :state, :initial => :waiting_for_new_build do
     
         # State requirements callback
+        around_transition do | build, transition, block|
+          start = Time.now
+          $LOG.info "Build...#{build.state}."
+          block.call
+          build.time_used += Time.now - start
+          $LOG.info "#{build.time_used} used, Build into new state...#{build.state}."
+        end
+               
         
         before_transition :waiting_for_new_build => :sync_workspace, 
                           :do => [:clean_workspace ]
@@ -86,7 +96,7 @@ class Build
         
         # event requirement
         event :start_nightly_build do 
-            transition :waiting_for_new_build => :sync_workspace 
+            transition :waitin g_for_new_build => :sync_workspace 
         end
         
         
@@ -102,6 +112,18 @@ class Build
     end
     
     def clean_workspace
+      begin
+        3.times do 
+          puts "cleaning workspace "
+          sleep 1
+        end
+        raise NoMethodError.new "just fake an exception"
+      rescue NoMethodError
+        puts "Something might goes wrong...test if allow to go back to init"
+        self.send :start_nightly_build
+        # TODO: add OK/ERROR handling facilities.
+        # FALLback to previous one , retry and 
+      end
       
     end
   
