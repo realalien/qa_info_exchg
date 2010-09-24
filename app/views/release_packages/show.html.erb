@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Filename:</b>
+  <%= @release_package.filename %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @release_package.status %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @release_package.location %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @release_package.type %>
+</p>
+
+<p>
+  <b>Memo:</b>
+  <%= @release_package.memo %>
+</p>
+
+
+<%= link_to 'Edit', edit_release_package_path(@release_package) %> |
+<%= link_to 'Back', release_packages_path %>

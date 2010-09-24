@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100919045614) do
+ActiveRecord::Schema.define(:version => 20100924022122) do
 
   create_table "advices", :force => true do |t|
     t.text     "advice"
@@ -19,6 +19,18 @@ ActiveRecord::Schema.define(:version => 20100919045614) do
     t.text     "other_contact_info"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "release_packages", :force => true do |t|
+    t.string   "filename"
+    t.string   "status"
+    t.string   "location"
+    t.string   "type"
+    t.text     "memo"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "platform"
+    t.datetime "when_package_created"
   end
 
   create_table "reminders", :force => true do |t|

@@ -1,4 +1,6 @@
 QaInfoExchg::Application.routes.draw do
+  resources :release_packages
+
   resources :advices
 
   resources :reminders

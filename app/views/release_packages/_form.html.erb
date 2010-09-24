@@ -1,0 +1,42 @@
+<%= form_for(@release_package) do |f| %>
+  <% if @release_package.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@release_package.errors.count, "error") %> prohibited this release_package from being saved:</h2>
+
+      <ul>
+      <% @release_package.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :filename %><br />
+	<% tstamp = "Alice2_" + "X360" + "_" + Time.now.mon.to_s +  "-" + Time.now.day.to_s + "-" + Time.now.year.to_s + "_" +"99999"%>
+    <%= f.text_field :filename, :value=>"#{tstamp}"  %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br />
+    <%= select("release_package", "status" , $PACKAGING_STATUS.collect {|p| [ p.to_s, p.to_s ] }) %>
+  </div>
+  <div class="field">
+    <%= f.label :platform %><br />
+	<%= select("release_package", "platform" , $GAME_SUPPORT_PLAFORMS.collect {|p| [ p.to_s, p.to_s ] }) %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br />
+	<%= select("release_package", "location" , $DEFAULT_PACKAGES_SAVE_LOCATIONS.collect {|p| [ p.to_s, p.to_s ] }) %>
+  </div>
+  <div class="field">
+    <%= f.label :type %><br />
+    <%= select("release_package", "type" , $RELEASE_TYPES.collect {|p| [ p.to_s, p.to_s ] }) %>
+  </div>
+  <div class="field">
+    <%= f.label :memo %><br />
+    <%= f.text_area :memo %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

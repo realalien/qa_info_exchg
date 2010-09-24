@@ -1,0 +1,68 @@
+<h1>Listing release_packages</h1>
+
+
+Today's Packages
+<table>
+	<tr>
+    <th>Filename</th>
+	<th>Platform</th>
+    <th>Status</th>
+    <th>Location</th>
+    <th>Type</th>
+    <th>Memo</th>
+	<th>When Created</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @today_release_packages.each do |release_package| %>
+  <tr>
+    <td><%= release_package.filename %></td>
+	<td><%= release_package.platform %></td>
+    <td><%= release_package.status %></td>
+    <td><%= release_package.location %></td>
+    <td><%= release_package.type %></td>
+    <td><%= release_package.memo %></td>
+	<td><%= release_package.when_package_created %></td>
+    <td><%= link_to 'Show', release_package %></td>
+    <td><%= link_to 'Edit', edit_release_package_path(release_package) %></td>
+    <td><%= link_to 'Destroy', release_package, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>	
+</table>
+	
+Previous's Packages	
+<table>
+  <tr>
+    <th>Filename</th>
+	<th>Platform</th>
+    <th>Status</th>
+    <th>Location</th>
+    <th>Type</th>
+    <th>Memo</th>
+	<th>When Created</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @release_packages.each do |release_package| %>
+  <tr>
+    <td><%= release_package.filename %></td>
+	<td><%= release_package.platform %></td>
+    <td><%= release_package.status %></td>
+    <td><%= release_package.location %></td>
+    <td><%= release_package.type %></td>
+    <td><%= release_package.memo %></td>
+	<td><%= release_package.when_package_created %></td>
+    <td><%= link_to 'Show', release_package %></td>
+    <td><%= link_to 'Edit', edit_release_package_path(release_package) %></td>
+    <td><%= link_to 'Destroy', release_package, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Release package', new_release_package_path %>

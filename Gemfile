@@ -6,6 +6,8 @@ gem 'rails', '3.0.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'acts_as_ferret', '>= 0.5'
+#gem 'ruby-graphviz', :require => 'graphviz'
 
 # Use unicorn as the web server
 # gem 'unicorn'

@@ -1,0 +1,41 @@
+
+
+20100924
+* 
+d:\zjc\wr2\qa_info_exchg>rails generate scaffold ReleasePackage filename:string status:string location:string type:string memo:text
+
+
+20100921
+* Q: use mongo db or standard SQL db in storing p4 related information.
+  case study:  the changelist spec, to avoid the maintaining of the additional info like tagging the 
+
+* TODO: regular database backup facilities.
+
+  
+  
+* Sub-project, simulate the touch, and motion in desktop PC screen.
+	>>>> TOOD: find existing 
+	
+
+* create a scaffolding for daily small glitches trouble shooting.
+Better if the text can be translated into test unit code or other checking facilities.
+Extra points will be given to the programmers if one can create a domain specific language
+
+
+e.g.    circumstance/symptoms
+
+
+* TODO: create a 
+
+
+* troubles handling
+
+		>>>> TODO: receiving complaints and give quick feedback to the users 
+			either for explanations and for apologizing.
+			
+		>>>> auditing facilities ?? any?
+		
+		>>>> 
+		
+		
+     
