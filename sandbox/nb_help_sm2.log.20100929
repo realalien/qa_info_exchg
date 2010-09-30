@@ -1,0 +1,51 @@
+# Logfile created on Sat Sep 25 11:01:47 +0800 2010 by /
+I, [2010-09-25T11:01:51.839000 #8664]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:03:22.340000 #9068]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:06:04.644000 #8136]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:07:54.487000 #7680]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:14:04.066000 #8832]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:14:07.068000 #8832]  INFO -- : 3.002 used, Build into new state...sync_workspace.
+I, [2010-09-25T11:17:43.001000 #8384]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:17:43.002000 #8384]  INFO -- : 0.001 used, Build into new state...sync_workspace.
+I, [2010-09-25T11:18:40.873000 #8300]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:23:24.396000 #8100]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:23:43.284000 #8548]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:24:02.946000 #1380]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:24:50.623000 #8240]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:26:14.106000 #5672]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:28:06.293000 #4552]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:33:06.551000 #7588]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:34:31.747000 #7108]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:56:11.978000 #3432]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T11:56:14.981000 #3432]  INFO -- : 3.003 used, Build into new state...sync_workspace.
+I, [2010-09-25T15:59:57.991000 #7900]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:00:50.326000 #10828]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:01:11.979000 #10300]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:02:47.473000 #11224]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:06:48.722000 #11652]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:11:41.245000 #12060]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:12:22.450000 #3176]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:12:25.452000 #3176]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:12:44.936000 #10444]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:14:11.600000 #6660]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:14:40.698000 #8828]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:15:50.548000 #6940]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:15:53.551000 #6940]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:15:56.553000 #6940]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:24:44.805000 #7740]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:24:44.806000 #7740]  INFO -- : 0.0 used, Build into new state...sync_workspace.
+I, [2010-09-25T16:28:43.924000 #6880]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:31:54.957000 #7388]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:32:52.374000 #5392]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:32:55.376000 #5392]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:44:29.386000 #4760]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T16:44:32.426000 #4760]  INFO -- : 3.04 used, Build into new state...sync_workspace.
+I, [2010-09-25T17:08:58.217000 #11680]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T17:11:55.022000 #7300]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T17:13:15.041000 #10904]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T17:13:52.031000 #8600]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T17:14:21.094000 #6900]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T17:18:26.962000 #1384]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T17:18:28.967000 #1384]  INFO -- : 2.005 used, Build into new state...sync_workspace.
+I, [2010-09-25T17:20:26.824000 #9468]  INFO -- : Build...waiting_for_new_build.
+I, [2010-09-25T17:20:28.828000 #9468]  INFO -- : 2.004 used, Build into new state...sync_workspace.

@@ -1,3 +1,13 @@
+20100928
+* Q: the AP4R is nice, but one critical problem remains, that is sometimes build master
+really want to interrupt a process, either to stop and leave it that way, of trying to 
+update the internal state of a build, will distributed task be able to accept the  
+outside reconfiguration, like merge runtime on/off switch?
+
+* reload the ongoing action or merge the new request into ongoing action?
+  shall I based it on time calculation or biz-logic required?
+  
+* 
 
 
 20100924
@@ -5,7 +15,7 @@
 d:\zjc\wr2\qa_info_exchg>rails generate scaffold ReleasePackage filename:string status:string location:string type:string memo:text
 
 
-20100921
+20100921 
 * Q: use mongo db or standard SQL db in storing p4 related information.
   case study:  the changelist spec, to avoid the maintaining of the additional info like tagging the 
 

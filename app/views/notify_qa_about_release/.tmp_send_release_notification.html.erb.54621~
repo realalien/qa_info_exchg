@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Today's package is ready.</h1>
+    <p>
+      <ul>
+      <% @pkg.each do | p |%>
+	  	<li><%= p.filename%> </li>
+	  <% end%>
+	  </ul>
+    </p>
+    <p>
+      If you are one of the testers, please download and test the package, thank you!
+    </p>
+  </body>
+</html>
